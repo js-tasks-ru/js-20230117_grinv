@@ -6,11 +6,11 @@ export default class ColumnChart {
   chartHeight = 50;
 
   constructor (props) {
-    this.data = props?.data || [];
-    this.label = props?.label || '';
-    this.value = props?.value || null;
-    this.link = props?.link || null;
-    this.formatHeading = props?.formatHeading || null;
+    this.data = props?.data;
+    this.label = props?.label;
+    this.value = props?.value;
+    this.link = props?.link;
+    this.formatHeading = props?.formatHeading;
     this.prefixedClass = getClassPrefix('column-chart');
     this.createElement();
   }
