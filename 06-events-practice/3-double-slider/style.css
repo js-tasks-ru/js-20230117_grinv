@@ -49,6 +49,7 @@ body {
   background: url("range-thumb-icon.svg") left center no-repeat;
   background-size: cover;
   cursor: grab;
+  z-index: 1;
 }
 
 /* cursor over all slider, so that if the cursor moves out of the thumb, it's still grabbing */
